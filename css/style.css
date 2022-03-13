@@ -1,3 +1,10 @@
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+
 *,
 :after,
 :before {
@@ -185,9 +192,3 @@ hr {
 }
 
 */
-
-canvas {
-  display: block;
-  width: 100vw;
-  height: 100vh;
-}
