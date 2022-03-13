@@ -160,8 +160,9 @@ hr {
 }
 
 .channels_item:hover {
-  transform: scale(1.25) rotate(1turn);
-  transition: transform 1.5s;
+  transform: scale(1.1);
+  animation-iteration-count: infinite;
+/*  transition: transform 1.5s; */
 }
 
 /**********ID SELECTORS**********/
