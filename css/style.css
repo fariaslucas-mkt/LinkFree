@@ -45,6 +45,11 @@ hr {
 
 /**********CLASS SELECTORS**********/
 
+img {
+  width: 50px,
+  height: auto
+}
+
 .static {
   position:absolute;
   background: white;
