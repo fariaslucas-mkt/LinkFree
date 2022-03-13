@@ -45,6 +45,17 @@ hr {
 
 /**********CLASS SELECTORS**********/
 
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+
+
 .logo {
   width: 150px;
   height: 150px;
