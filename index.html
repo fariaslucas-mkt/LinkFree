@@ -1,175 +1,87 @@
-*,
-:after,
-:before {
-  box-sizing: inherit;
-}
+<!-- https://links.myedusolve.com/-->
 
-/**********TAG SELECTORS**********/
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homer Simpson</title>
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/OscarValerock/AboutOscar/main/assets/Images/oscar.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-html {
-  box-sizing: border-box;
-  font-size: 100%;
-}
+  <body>
+    <br /><br />
+    <img class="logo" src="https://i.imgur.com/t8ZX9um.jpg" alt="logo" />
 
-body {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  max-width: 100%;
-  min-height: 100vh;
-  height: auto;
-  letter-spacing: 0.1em;
-}
+    <h1>Homer Simpson</h1>
 
-h1 {
-  color: #024873;
-}
+    <div class="links links_first">
+      <a class="links links_first" href="contact.html" target="_blank"
+        >Contact
+      </a>
+    </div>
+    <div class="links links_second">
+      <a class="links links_second" href="portfolio.html" target="_blank"
+        >Portfolio
+      </a>
+    </div>
+    <div class="links links_third">
+      <a class="links links_third" href="cv.html" target="_blank">CV </a>
+    </div>
 
-h2 {
-  color: #024873;
-}
+    <h2>Follow me on</h2>
+    <br />
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: rgb(196, 196, 196);
-  border-width: 5px;
-  width: 100px;
-}
-
-/**********CLASS SELECTORS**********/
-
-.logo {
-  width: 150px;
-  height: 150px;
-  display: block;
-  margin: 35px auto;
-  border-radius: 100%;
-}
-
-.links {
-  display: block;
-  max-width: 550px;
-  margin: 0 auto 15px;
-  margin-bottom: 5px;
-  padding: 15px 20px;
-  font-size: 0.95rem;
-  line-height: 1.5;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  color: black;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.links .links:hover {
-  background-color: #fff;
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% {
-    transform: translate(1px, 1px) rotate(0deg);
-  }
-  10% {
-    transform: translate(-1px, -2px) rotate(-1deg);
-  }
-  20% {
-    transform: translate(-3px, 0px) rotate(1deg);
-  }
-  30% {
-    transform: translate(3px, 2px) rotate(0deg);
-  }
-  40% {
-    transform: translate(1px, -1px) rotate(1deg);
-  }
-  50% {
-    transform: translate(-1px, 2px) rotate(-1deg);
-  }
-  60% {
-    transform: translate(-3px, 1px) rotate(0deg);
-  }
-  70% {
-    transform: translate(3px, 1px) rotate(-1deg);
-  }
-  80% {
-    transform: translate(-1px, -1px) rotate(1deg);
-  }
-  90% {
-    transform: translate(1px, 2px) rotate(0deg);
-  }
-  100% {
-    transform: translate(1px, -2px) rotate(-1deg);
-  }
-}
-
-.links .links_first {
-  border-bottom: 3px solid #80d6ff;
-  box-shadow: inset 0 -4px 0 #80d6ff;
-  border: 2px solid #80d6ff;
-  background-color: #80d6ff;
-}
-
-.links .links_second {
-  border-bottom: 3px solid #ffa093;
-  box-shadow: inset 0 -4px 0 #ffa093;
-  border: 2px solid #ffa093;
-  background-color: #ffa093;
-}
-
-.links .links_third {
-  border-bottom: 3px solid #bedde8;
-  box-shadow: inset 0 -4px 0 #bedde8;
-
-  border: 2px solid #bedde8;
-  background-color: #bedde8;
-}
-
-.links .links_fourth {
-  box-shadow: inset 0 -4px 0 #73e2a7;
-
-  border: 2px solid #73e2a7;
-  background-color: #73e2a7;
-}
-
-.links .links_fifth {
-  border-bottom: 3px solid #ffc15e;
-  box-shadow: inset 0 -4px 0 #ffc15e;
-  border: 2px solid #ffc15e;
-  background-color: #ffc15e;
-}
-
-.channels {
-  display: flex;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-.channels .channels_item {
-  flex: 5;
-  margin-right: 5px;
-  transition: transform 0.2s;
-  color: #024873;
-}
-
-.channels_item:hover {
-  transform: scale(1.25) rotate(1turn);
-  transition: transform 1.5s;
-}
-
-/**********ID SELECTORS**********/
-/*ID Selectors can only be ussed once per page*/
-/*
-
-#heading {
-  color: blue
-}
-
-*/
+    <div class="channels">
+      <a
+        class="channels_item"
+        href="http://bit.ly/DiscordPowerPlatform"
+        target="_blank"
+      >
+        <i class="ri-discord-line ri-3x"></i>
+      </a>
+      <a
+        class="channels_item"
+        href="http://bit.ly/OscarMartinez-LinkedIn"
+        target="_blank"
+      >
+        <i class="ri-linkedin-box-line ri-3x"></i>
+      </a>
+      <a
+        class="channels_item"
+        href="http://bit.ly/OscarMartinez-Medium"
+        target="_blank"
+      >
+        <i class="ri-medium-line ri-3x"></i>
+      </a>
+      <a
+        class="channels_item"
+        href="http://bit.ly/OscarMartinez-Twitter"
+        target="_blank"
+      >
+        <i class="ri-twitter-line ri-3x"></i>
+      </a>
+      <a
+        class="channels_item"
+        href="http://bit.ly/OscarMartinez-GitHub"
+        target="_blank"
+      >
+        <i class="ri-github-line ri-3x"></i>
+      </a>
+    </div>
+  </body>
+</html>
