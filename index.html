@@ -1,147 +1,175 @@
-<!-- https://links.myedusolve.com/-->
+*,
+:after,
+:before {
+  box-sizing: inherit;
+}
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Lucas Farias S.</title>
-    
-    <link
-      rel="icon"
-      href="favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-    />
+/**********TAG SELECTORS**********/
 
-  </head>
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
 
-  <body>
-    <br /><br />
-    <img class="logo" src="profile.jpg" alt="logo" />
+body {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+  min-height: 100vh;
+  height: auto;
+  letter-spacing: 0.1em;
+}
 
-    <h1>Lucas Farias S.</h1>
+h1 {
+  color: #024873;
+}
 
-    <!--
-    <div class="links links_first">
-      <a class="links links_first" href="contact.html" target="_blank"
-        >Contact
-      </a>
-    </div> -->
-    
-    <!-- Portfolio -->
-    <div class="links links_second">
-      <a class="links links_second" href="https://fariaslucas-mkt.github.io/" target="_blank"
-        >Portfólio
-      </a>
-    </div>
-    
-    <div class="links links_fourth">
-      <a class="links links_fourth" href="mailto:s.fariaslucas@gmail.com" target="_blank"
-         >Tem um negócio e deseja melhorar o alcance online com seus clientes? Deseja melhorar a imagem da sua empresa online? Quer uma excelente gestão para suas redes sociais? Tudo por um valor que cabe no seu bolso? Me envie um e-mail e vamos conversar!</a>
-    </div>
+h2 {
+  color: #024873;
+}
 
-    <div class="links links_third">
-      <a class="links links_third" href="mailto:s.fariaslucas@gmail.com" target="_blank"
-         >Está fazendo graduação na área de programação e afins, tem conhecimentos em desenvolvimento web frontend (HTML, CSS, JS, Bootstrap) e está disposto(a) a arriscar? Me envie um e-mail e vamos conversar!</a>
-    </div>
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(196, 196, 196);
+  border-width: 5px;
+  width: 100px;
+}
 
-    <h2>Contato & Redes Sociais</h2>
-    <br />
+/**********CLASS SELECTORS**********/
 
-    
-    <!-- ### Ícones foot ### -->
+.logo {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 35px auto;
+  border-radius: 100%;
+}
 
-    <div class="channels">
-      
-      <!-- Gmail -->
-      <a
-        class="channels_item"
-        href="mailto:s.fariaslucas@gmail.com"
-        target="_blank"
-      >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/material-rounded/48/000000/mail.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/material-rounded/48/DB4437/mail.png">
-      </a>
-      
-      <!-- WhatsApp -->
-      <a
-        class="channels_item"
-        href="https://api.whatsapp.com/send?text=Ol%C3%A1%20Lucas!%20Eu%20vi%20o%20seu%20site,%20e%20gostaria%20de%20conversar.&phone=55919986178437"
-        target="_blank"
-      >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/material/48/000000/whatsapp--v1.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/material/48/00E676/whatsapp--v1.png">
-      </a>
-      
-      <!-- LinkedIn -->
-      <a
-        class="channels_item"
-        href="https://www.linkedin.com/in/farias-lucas"
-        target="_blank"
-     >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/material/48/000000/linkedin--v1.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/material/48/007BB5/linkedin--v1.png">
-      </a>
-      
-      <!-- Instagram -->
-      <a
-        class="channels_item"
-        href="https://www.instagram.com/s.fariaslucas"
-        target="_blank"
-      >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/material/48/000000/instagram-new--v1.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/material/48/fa314a/instagram-new--v1.png">
-      </a>
-      
-      <!-- Twitter -->
-      <a
-        class="channels_item"
-        href="https://www.twitter.com/fariaslucasMKT"
-        target="_blank"
-      >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/material/48/000000/twitter--v1.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/material/48/4a90e2/twitter--v1.png">
-      </a>
-      
-      <!-- GitHub -->
-      <a
-        class="channels_item"
-        href="https://www.github.com/fariaslucas-mkt"
-        target="_blank"
-      >
-        <img width="40" height="auto" class="static" src="https://img.icons8.com/fluency-systems-filled/48/000000/github.png">
-        <img width="40" height="auto" class="active" src="https://img.icons8.com/fluency-systems-regular/48/000000/github.png">
-      </a>
-      
-    </div>
-    
-    
-    
-   <!-- Animated Background
-    
- <div class="d-flex flex-column justify-content-center w-100 h-100">
+.links {
+  display: block;
+  max-width: 550px;
+  margin: 0 auto 15px;
+  margin-bottom: 5px;
+  padding: 15px 20px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: black;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-	<div class="d-flex flex-column justify-content-center align-items-center">
-		<h1 class="fw-light text-white m-0"></h1>
-		<div class="btn-group my-5">
-			<a href="https://codepen-api-export-production.s3.us-west-2.amazonaws.com/zip/PEN/pyBNzX/1578778289271/pure-css-gradient-background-animation.zip" class="btn btn-outline-light" aria-current="page"><i class="fas fa-file-download me-2"></i></a>
-			<a href="https://codepen.io/P1N2O/full/pyBNzX" class="btn btn-outline-light"><i class="fas fa-expand ms-2"></i></a>
-		</div>
-		<a href="https://manuel.pinto.dev" class="text-decoration-none">
-			<h5 class="fw-light text-white m-0"></h5>
-		</a>
-	</div>
-</div>
-</div> -->
+.links .links:hover {
+  background-color: #fff;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
 
-  </body>
-</html>
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.links .links_first {
+  border-bottom: 3px solid #80d6ff;
+  box-shadow: inset 0 -4px 0 #80d6ff;
+  border: 2px solid #80d6ff;
+  background-color: #80d6ff;
+}
+
+.links .links_second {
+  border-bottom: 3px solid #ffa093;
+  box-shadow: inset 0 -4px 0 #ffa093;
+  border: 2px solid #ffa093;
+  background-color: #ffa093;
+}
+
+.links .links_third {
+  border-bottom: 3px solid #bedde8;
+  box-shadow: inset 0 -4px 0 #bedde8;
+
+  border: 2px solid #bedde8;
+  background-color: #bedde8;
+}
+
+.links .links_fourth {
+  box-shadow: inset 0 -4px 0 #73e2a7;
+
+  border: 2px solid #73e2a7;
+  background-color: #73e2a7;
+}
+
+.links .links_fifth {
+  border-bottom: 3px solid #ffc15e;
+  box-shadow: inset 0 -4px 0 #ffc15e;
+  border: 2px solid #ffc15e;
+  background-color: #ffc15e;
+}
+
+.channels {
+  display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.channels .channels_item {
+  flex: 5;
+  margin-right: 5px;
+  transition: transform 0.2s;
+  color: #024873;
+}
+
+.channels_item:hover {
+  transform: scale(1.25) rotate(1turn);
+  transition: transform 1.5s;
+}
+
+/**********ID SELECTORS**********/
+/*ID Selectors can only be ussed once per page*/
+/*
+
+#heading {
+  color: blue
+}
+
+*/
