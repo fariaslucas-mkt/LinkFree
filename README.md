@@ -1,7 +1,3 @@
-# My LinkFree
+# Minimal Pastel
 
-### Lucas F. S.
-
-https://fariaslucas-mkt.github.io/LinkFree/
-
-Using *Abstract* theme by [Rajnikant dash](http://github.com/Rajni2002/ "Rajni2002").
+This template was created by [Oscar Martínez Valero (Valerock)](https://linktr.ee/oscarvalerock "Oscar Martínez Valero (Valerock)").
