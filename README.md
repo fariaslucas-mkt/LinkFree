@@ -1,7 +1,7 @@
-# Abstract Theme
-Made by [Rajnikant dash](http://github.com/Rajni2002/ "Rajni2002").
+# My LinkFree
 
-![Preview](https://github.com/Rajni2002/LinkFree/blob/master/Templates/Abstract/preview.png "Preview")
+### Lucas F. S.
 
-#### Demo
-https://michaelbarney.github.io/LinkFree/Templates/Abstract/
+
+
+Using theme by [Rajnikant dash](http://github.com/Rajni2002/ "Rajni2002").
