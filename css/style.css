@@ -48,10 +48,14 @@ hr {
 .static {
   position:absolute;
   background: white;
+  width: 50px,
+  height: auto
 }
 
 .static:hover {
   opacity:0;
+  width: 50px,
+  height: auto
 }
 
 
